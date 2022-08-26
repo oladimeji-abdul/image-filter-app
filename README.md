@@ -19,6 +19,12 @@ You'll need to create a new node server. Open a new terminal within the project 
 
 ### Create a new endpoint in the server.ts file
 
+### ELASTIC BEANSTALK ENDPOINT:
+http://imagefilter-env.eba-imdgh5pf.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://images.credly.com/size/680x680/images/1e6611ca-8afe-4ecc-ad4d-305fba52ee7e/1_LFCS-600x600.png
+
+### git repo
+https://github.com/oladimeji-abdul/image-filter-app.git
+
 The starter code has a task for you to complete an endpoint in `./src/server.ts` which uses query parameter to download an image from a public URL, filter the image, and return the result.
 
 We've included a few helper functions to handle some of these concepts and we're importing it for you at the top of the `./src/server.ts`  file.
